@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat">
         <activity
-            android:name=".CardView"
+            android:name=".MyCardView"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

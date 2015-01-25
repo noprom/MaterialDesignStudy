@@ -3,10 +3,10 @@ package com.noprom.materialdesignstudy;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.SeekBar;
+import android.support.v7.Cardview;
+public class MyCardView extends Activity {
 
-public class CardView extends Activity {
-
-    CardView mCardView;
+    MyCardView mCardView;
     SeekBar mRadiusSeekBar;
     SeekBar mElevationSeekBar;
 
@@ -14,7 +14,7 @@ public class CardView extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_view);
-        mCardView = (CardView) findViewById(R.id.cardview);
+        mCardView = (MyCardView) findViewById(R.id.cardview);
         mRadiusSeekBar = (SeekBar) findViewById(R.id.cardview_radius_seekbar);
         mRadiusSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
